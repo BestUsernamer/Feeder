@@ -23,7 +23,7 @@ public class Feeder {
         if (Math.random() <0.05) currentFood = 0;
         else
         {
-            int eaten = (int) (Math.random() * 41)+ 10;
+            int eaten = (int) (Math.random() * 41) + 10;
             eaten *=numBirds;
             currentFood -=eaten;
         }
@@ -44,7 +44,7 @@ public class Feeder {
             days++;
 
         }
-return(0);
+return(days);
     }
 
 }
